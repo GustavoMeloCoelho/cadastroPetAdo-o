@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Adote um pet</title>
+</head>
+<body>
+
+    <div class="container-home">
+
+        <h1 class="text-center">Cadastro de pet</h1>
+        <form class="form" id="form-register-pet">
+
+            <div class="input-container flex-column margin-t-b-20">
+                <label for="tutor-name">Nome do tutor</label>
+                <input id="tutor-name" placeholder="Insira o nome do tutor" />
+                <span id="tutor-name-error"></span>
+            </div>
+
+            <div class="input-container flex-column margin-t-b-20">
+                <label for="tutor-cell">Celular do tutor</label>
+                <input id="tutor-cell" placeholder="Insira o celular do tutor" />
+                <span id="tutor-cell-error"></span>
+            </div>
+
+            <div class="input-container flex-column margin-t-b-20">
+                <label for="tutor-email">E-mail do tutor</label>
+                <input type="email" id="tutor-email" placeholder="Insira o e-mail do tutor" />
+                <span id="tutor-email-error"></span>
+            </div>
+            
+            <div class="form-row margin-t-b-20" >
+                <div class="input-container flex-column flex-50">
+                    <label for="animal-categories">Categoria do animal</label>
+                    <select name="categories" id="animal-categories">
+                        <option value="">Selecione um item</option>
+                        <option value="cat">Gato</option>
+                        <option value="dog">Cachorro</option>
+                    </select>
+                    <span id="animal-categories-error"></span>
+                </div>
+    
+                <div class="input-container flex-column flex-50">
+                    <label for="animal-name">Nome do animal</label>
+                    <input id="animal-name" placeholder="Insira o nome do animal" />
+                    <span id="animal-name-error"></span>
+                </div>
+            </div>
+            <div class="form-row margin-t-b-20">
+                <div class="input-container flex-column flex-50">
+                    <label for="animal-breed">Raça do animal</label>
+                    <input id="animal-breed" placeholder="Insira raça do animal" />
+                    <span id="animal-breed-error"></span>
+                </div>
+    
+                <div class="input-container flex-column flex-50">
+                    <label for="animal-age">Idade do animal</label>
+                    <input type="number" id="animal-age" placeholder="Insira a idade do animal" />
+                    <span id="animal-age-error"></span>
+                </div>
+            </div>
+            
+            <div class="input-container flex-column margin-t-b-20">
+                <label for="upload-photo">Foto do animal</label>
+                <input type="url" id="upload-photo" placeholder="Insira a ULR da imagem do animal" />
+                <span id="upload-photo-error"></span>
+            </div>
+            
+            <button type="submit" class="btn-form-register-pet">Salvar</button>
+            <a href="listaPets.html">Lista de Pets</a>  
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

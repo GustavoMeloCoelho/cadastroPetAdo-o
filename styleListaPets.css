@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Apple Chancery, cursive;
+}
+
+a {
+    text-decoration: none;
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    transition: 0.48s;
+    margin-right: 20px;
+}
+
+a:hover {
+    background-color: #886114;
+    color: beige;
+    border: 1px solid bisque;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #ffda90;
+    width: 75%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.pet-img {
+    width: 80px;
+    height: 80px;
+  
+}
+
+.container-table {
+    height: 70vh;
+    width: 75%;
+    background-color: #ffda90;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body {
+    height: 100%;
+    background-image: url('img/background-branco.jpg');
+}
+
+.text-center {
+    text-align: center;
+}
+
+.delete-btn {
+    width: 70px;
+    height: 25px;
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    transition: 0.48s;
+}
+
+.delete-btn:hover {
+    background-color: #886114;
+    color: beige;
+    border: 1px solid bisque;
+}
+
+.table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+table td {
+	padding: 15px;
+}
+
+table thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #ffda90;
+}
+
+table tbody td {
+	color: #636363;
+	border: 1px solid  #ffda90;
+}
+
+table tbody tr {
+	background-color: #f9fafb;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}

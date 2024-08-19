@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 10px;
+    font-family: Apple Chancery, cursive;
+}
+
+input, select {
+    
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;   
+}
+
+input:focus{
+    border-color: #886114;
+    outline: none;
+    box-shadow: #886114 0px 0px 0px 1px;
+}
+
+a {
+    text-decoration: none;
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    transition: 0.48s;
+    margin-left: 20px;
+}
+
+a:hover {
+    background-color: #886114;
+    color: beige;
+    border: 1px solid bisque;
+}
+
+body {
+    height: 100%;
+    background-image: url('img/background-branco.jpg');
+}
+
+span {
+    color: red;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.align-left {
+    align-self: flex-start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.input-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.container-home {
+
+    height: 80vh;
+    width: 50%;
+    background-color: #ffda90;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form {
+    height: 100%;
+    
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn-form-register-pet {
+    margin-left: 20px;
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    transition: 0.48s;
+}
+
+.btn-form-register-pet:hover {
+    background-color: #886114;
+    color: beige;
+    border: 1px solid bisque;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-50 {
+    flex-basis: 50%;
+}
+
+.margin-t-b-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
